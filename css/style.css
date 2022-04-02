@@ -2,6 +2,17 @@
     --color1: #07575B;
     --color2: #66A5AD;
 }
+@font-face{
+        font-family: 'Fontello';
+        src: url("font/fontello.woff2"),
+        url("font/fontello.woff");
+        font-weight: 300;
+        font-display: swap;
+        font-style: normal;
+}
+body{
+    font-family: "Fontello", sans-serif;
+}
 
 section {
     padding: 100px 0px;
